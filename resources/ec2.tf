@@ -8,4 +8,5 @@ resource "aws_instance" "myEc2Instance" {
   tags = {
     Name = "Aya EC2"
   }
+  ebs_optimized = true
 }
